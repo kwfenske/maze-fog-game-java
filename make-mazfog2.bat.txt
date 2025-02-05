@@ -1,0 +1,3 @@
+REM -- compile MazeFog2.java as a JDK1.1 applet in a JAR file
+"E:\Program Files\Java\j2sdk1.4.2_19\bin\javac.exe" -target 1.1 MazeFog2.java
+"E:\Program Files\Java\j2sdk1.4.2_19\bin\jar.exe" -cfmv MAZFOG2B.JAR MazeFog2.manifest MazeFog2*.class MAZFOG2E.AU
